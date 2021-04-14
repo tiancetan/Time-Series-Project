@@ -14,3 +14,8 @@ Multivariate time series has more than one time-dependent variable
 Long short-term memory - a type of recurrent neural network
 6. Prophet
 An open source software released by Facebook's Core Data Science team
+
+
+#Final Result
+We set the basic prophet model as the best one because adding seasonality and holiday does not improve the model performance. Though the actual prices always exceed the predicted one, the difference in the gap makes it a decent prediction. The final model on the test dataset has a score of RMSE 8919 and MAPE 0.0129.
+<img width="523" alt="Screen Shot 2021-04-14 at 12 31 20 AM" src="https://user-images.githubusercontent.com/69778068/114659180-bcc6e900-9cb8-11eb-944d-d35068f5e793.png">
